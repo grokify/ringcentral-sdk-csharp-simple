@@ -1,12 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 using Newtonsoft.Json;
 
-namespace RingCentralInfo
+namespace RingCentralSimple.Model
 {
     public class Base
     {
@@ -18,7 +15,7 @@ namespace RingCentralInfo
     }
 }
 
-namespace RingCentralInfo
+namespace RingCentralSimple.Model
 {
     public class Caller
     {
@@ -26,11 +23,12 @@ namespace RingCentralInfo
     }
 }
 
-namespace RingCentralInfo.Request
+namespace RingCentralSimple.Model.Request
 {
     public class SMS : Base
     {
-        public RingCentralInfo.Caller from { get; set; }
+        public Caller from { get; set; }
+        public List<Caller> to { get; set; }
         public string text { get; set; }
     }
 }
