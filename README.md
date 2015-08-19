@@ -6,7 +6,7 @@ This is a very early proof of concept.
 
 ## Installation
 
-For now, add the directory tree to your project via the file system and then add the `Client.cs` and `Model.cs` files to your project via Visual Studio.
+For now, just add the `Client.cs` and `Model.cs` files to your project via Visual Studio.
 
 ## Quickstart
 
