@@ -31,6 +31,6 @@ var client = rc.RingCentralClient;
 
 ## License
 
-RingCentral Simple SDK for C# is available under an MIT-style license. See file:LICENSE.txt for details.
+RingCentral Simple SDK for C# is available under an MIT-style license. See the `LICENSE.txt` file for details.
 
 RingCentral Simple SDK for C# &copy; 2015 by John Wang
