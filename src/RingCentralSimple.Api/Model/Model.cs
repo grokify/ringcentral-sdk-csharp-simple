@@ -9,8 +9,7 @@ namespace RingCentralSimple.Model
     {
         public string ToJson()
         {
-            string json = JsonConvert.SerializeObject(this);
-            return json;
+            return JsonConvert.SerializeObject(this);
         }
     }
 }
