@@ -22,6 +22,8 @@ var response = rc.SendMessage("+15551112222", "+15553334444", "RingCentral SMS f
 
 ### Access RingCentral Client
 
+The RingCentral SDK's client is available via the `RingCentralClient` property.
+
 ```csharp
 var rc = new RingCentralSimple.Client("appKey", "appSecret", "serverUrl");
 var client = rc.RingCentralClient;
