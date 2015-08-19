@@ -1,6 +1,6 @@
 # RingCentral Simple SDK for C#
 
-This is a simple wrapper around the RingCentral C# SDK to make common API calls easier to access. The RingCentral SDK client object is available via the simple client.
+This is a simple wrapper around the [RingCentral C# SDK](https://github.com/ringcentral/ringcentral-csharp) to make common API calls easier to access. The RingCentral SDK client object is available via the simple client.
 
 This is a very early proof of concept.
 
