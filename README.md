@@ -12,10 +12,12 @@ For now, add the directory tree to your project via the file system and then add
 
 ### Send an SMS
 
+`rc.SendMessage()` returns a `RingCentral.Http.Response` object.
+
 ```csharp
 var rc = new RingCentralSimple.Client("appKey", "appSecret", "serverUrl");
 rc.RingCentralClient.GetPlatform().Authenticate("username", "password", "ext", true);
-Response response = rc.SendMessage("+15551112222", "+15553334444", "RingCentral SMS from C#");
+var response = rc.SendMessage("+15551112222", "+15553334444", "RingCentral SMS from C#");
 ```
 
 ### Access RingCentral Client
