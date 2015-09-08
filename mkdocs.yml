@@ -1,0 +1,11 @@
+site_name: RingCentral SDK for Ruby
+site_url: https://github.com/grokify/ringcentral-sdk-csharp-simple
+repo_url: https://github.com/grokify/ringcentral-sdk-csharp-simple.git
+docs_dir: docs
+theme: readthedocs
+pages:
+# Introduction:
+- ['index.md', 'About', 'RingCentral SDK Simple']
+
+## Installation:
+- ['installation/Visual-Studio-2015.md', 'Installation', 'Visual Studio 2015']
