@@ -9,8 +9,9 @@ This covers installation of the RingCentral SDK and PubNub dependency for making
 
 Use the following command in the [Package Manager Console](http://docs.nuget.org/consume/package-manager-console):
 
-`PM> Install-Package RingCentralSDK
-PM> Install-Package Pubnub`
+`PM> Install-Package RingCentralSDK`
+
+`PM> Install-Package Pubnub`
 
 ## Using NuGet Package Manager
 
