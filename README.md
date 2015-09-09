@@ -6,7 +6,11 @@ This is a very early proof of concept.
 
 ## Installation
 
-For now, just add the `Client.cs` and `Model.cs` files to your project via Visual Studio.
+Via NuGet:
+
+```
+Install-Package RingCentralSimple
+```
 
 ## Quickstart
 
