@@ -48,3 +48,40 @@ namespace RingCentralSimple.Model.Request
         public string text { get; set; }
     }
 }
+
+namespace RingCentralSimple.Model.Info
+{
+    public class SubscriptionDeliveryMode
+    {
+        public string transportType { get; set; }
+        public string encryption { get; set; }
+        public string address { get; set; }
+        public string subscriberKey { get; set; }
+    }
+}
+
+namespace RingCentralSimple.Model.Request
+{
+    public class Subscription : Base
+    {
+        public List<string> eventFilters { get; set; }
+        public RingCentralSimple.Model.Info.SubscriptionDeliveryMode deliveryMode { get; set; }
+    }
+
+    public class SubscriptionDeliveryMode
+    {
+        public string transportType { get; set; }
+        public string encryption { get; set; }
+        public string address { get; set; }
+        public string subscriberKey { get; set; }
+    }
+}
+
+namespace RingCentralSimple.Model.Response
+{
+    public class Subscription
+    {
+        public string id { get; set; }
+        public RingCentralSimple.Model.Info.SubscriptionDeliveryMode deliveryMode { get; set; }
+    }
+}
