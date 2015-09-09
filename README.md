@@ -16,17 +16,17 @@ For now, just add the `Client.cs` and `Model.cs` files to your project via Visua
 
 ```csharp
 var rc = new RingCentralSimple.Client("appKey", "appSecret", "serverUrl");
-rc.RingCentralClient.GetPlatform().Authenticate("username", "password", "ext", true);
+rc.RingCentralSdk.GetPlatform().Authenticate("username", "password", "ext", true);
 var response = rc.SendMessage("+15551112222", "+15553334444", "RingCentral SMS via C#");
 ```
 
 ### Access RingCentral Client
 
-The RingCentral SDK's client is available via the `RingCentralClient` property.
+The RingCentral SDK's client is available via the `RingCentralSdk` property.
 
 ```csharp
 var rc = new RingCentralSimple.Client("appKey", "appSecret", "serverUrl");
-var client = rc.RingCentralClient;
+var client = rc.RingCentralSdk;
 ```
 
 ## License
