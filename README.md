@@ -2,10 +2,11 @@
 
 [![NuGet](https://img.shields.io/nuget/v/RingCentralSimple.svg)](https://www.nuget.org/packages/RingCentralSimple/)
 [![NuGet](https://img.shields.io/nuget/dt/RingCentralSimple.svg)](https://www.nuget.org/packages/RingCentralSimple/)
+[![Docs](https://img.shields.io/badge/docs-readthedocs-blue.svg)](http://ringcentral-sdk-csharp-simple.readthedocs.org/)
 
-This is a simple wrapper around the [RingCentral C# SDK](https://github.com/ringcentral/ringcentral-csharp) to make common API calls easier to access. The RingCentral SDK client object is available via the simple client.
+This is a simple wrapper around the [RingCentral C# SDK](https://github.com/ringcentral/ringcentral-csharp) to make common API calls easier to access. The RingCentral SDK client object is available via the simple client and can be introduced via a dependency injection.
 
-This is a very early proof of concept.
+The code is a very early proof of concept.
 
 ## Installation
 
