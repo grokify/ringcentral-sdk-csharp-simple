@@ -26,7 +26,7 @@ The RingCentral SDK's client is available via the `RingCentralSdk` property.
 
 ```csharp
 var rc = new RingCentralSimple.Client("appKey", "appSecret", "serverUrl");
-var client = rc.RingCentralSdk;
+var rcsdk = rc.RingCentralSdk;
 ```
 
 ## License
