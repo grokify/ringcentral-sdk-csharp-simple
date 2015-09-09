@@ -27,7 +27,7 @@ using RingCentralSimple;
 
 ### Send an SMS
 
-`rc.SendMessage()` returns a `RingCentral.SDK.Http.Response` object.
+This can be done simply using the `SendMessage()` method which returns a `RingCentral.SDK.Http.Response` object. This assumes that the `accountId` and `extensionId` are the default ids for the authorized user.
 
 ```csharp
 var rc = new RingCentralSimple.Client("appKey", "appSecret", "serverUrl");
@@ -37,7 +37,7 @@ var response = rc.SendMessage("+15551112222", "+15553334444", "RingCentral SMS v
 
 ### Access RingCentral Client
 
-The RingCentral SDK's client is available via the `RingCentralSdk` property.
+The RingCentral SDK's client is available via the `Sdk` property.
 
 ```csharp
 var rc = new RingCentralSimple.Client("appKey", "appSecret", "serverUrl");
