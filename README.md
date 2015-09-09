@@ -23,7 +23,7 @@ using RingCentralSimple;
 
 ```csharp
 var rc = new RingCentralSimple.Client("appKey", "appSecret", "serverUrl");
-rc.RingCentralSdk.GetPlatform().Authorize("username", "extension", "password", true);
+rc.Sdk.GetPlatform().Authorize("username", "extension", "password", true);
 var response = rc.SendMessage("+15551112222", "+15553334444", "RingCentral SMS via C#");
 ```
 
@@ -33,7 +33,7 @@ The RingCentral SDK's client is available via the `RingCentralSdk` property.
 
 ```csharp
 var rc = new RingCentralSimple.Client("appKey", "appSecret", "serverUrl");
-var rcsdk = rc.RingCentralSdk;
+var rcsdk = rc.Sdk;
 ```
 
 ## License

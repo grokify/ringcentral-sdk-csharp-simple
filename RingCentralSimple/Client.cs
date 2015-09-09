@@ -4,22 +4,20 @@ using System.Collections.Generic;
 using RingCentral;
 using RingCentral.SDK.Http;
 
-using Newtonsoft.Json;
-
 namespace RingCentralSimple
 {
     public class Client
     {
-        public RingCentral.SDK.SDK RingCentralSdk;
+        public RingCentral.SDK.SDK Sdk;
 
         public Client(string appKey, string appSecret, string serverUrl)
         {
-            RingCentralSdk = new RingCentral.SDK.SDK(appKey, appSecret, serverUrl);
+            Sdk = new RingCentral.SDK.SDK(appKey, appSecret, serverUrl);
         }
 
         public Client(RingCentral.SDK.SDK ringCentralSdk)
         {
-            RingCentralSdk = ringCentralSdk;
+            Sdk = ringCentralSdk;
         }
 
         public Response SendMessage(string from, string to, string text)
@@ -34,7 +32,7 @@ namespace RingCentralSimple
                 text = text
             };
             Request request = new Request("/restapi/v1.0/account/~/extension/~/sms", srequest.ToJson());
-            Response response = RingCentralSdk.GetPlatform().Post(request);
+            Response response = Sdk.GetPlatform().Post(request);
             return response;
         }
     }
