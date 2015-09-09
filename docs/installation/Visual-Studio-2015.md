@@ -14,6 +14,16 @@ Use the following command in the [Package Manager Console](http://docs.nuget.org
 
 ## Using NuGet Package Manager
 
-1. In the Solution Explorer, right click on the Project and click "Manage NuGet Packages..."
+In the Solution Explorer, right click on the Project and click "Manage NuGet Packages...". Then search and install the following:
+
 1. Search for "RingCentralSDK" to install RingCentralSDK. This will install a number of dependencies indluding Newtonsoft.Json. In the Output window for "Package Manager" you should see "Successfully installed 'RingCentralSDK 0.0.29'" ... Now in References, you should see RingCentral and RingCentral.NET40.
 1. Search for "Pubnub" to install the Pubnub dependency. Upon successful installation, you should see `Successfully installed 'Pubnub 0.0.0' to...` Optionally delete `PubnubExample.cs` to prevent the `more than one entry point defined` error.
+
+# Installation using Xamarin Android
+
+In the Solution Explorer, right click on the Project &gt; Packages folder and then select "Add Packages...". In the search window type "RingCentral" to add the "RingCentral SDK" with id = `RingCentralSdk`.
+
+# Installation using Xamarin iOS
+
+In the Solution Explorer, right click on the Project &gt; Packages folder and then select "Add Packages...". In the search window type "RingCentral" to add the "RingCentral SDK" with id = `RingCentralSdk`.
+
