@@ -12,7 +12,7 @@ For now, just add the `Client.cs` and `Model.cs` files to your project via Visua
 
 ### Send an SMS
 
-`rc.SendMessage()` returns a `RingCentral.Http.Response` object.
+`rc.SendMessage()` returns a `RingCentral.SDK.Http.Response` object.
 
 ```csharp
 var rc = new RingCentralSimple.Client("appKey", "appSecret", "serverUrl");
