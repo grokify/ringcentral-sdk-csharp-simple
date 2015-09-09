@@ -1,6 +1,7 @@
 # RingCentral Simple SDK for C&#35; / .NET
 
-[![NuGet](https://img.shields.io/nuget/v/RingCentralSimple.svg)]()
+[![NuGet](https://img.shields.io/nuget/v/RingCentralSimple.svg)](https://www.nuget.org/packages/RingCentralSimple/)
+[![NuGet](https://img.shields.io/nuget/dt/Microsoft.AspNet.Mvc.svg)](https://www.nuget.org/packages/RingCentralSimple/)
 
 This is a simple wrapper around the [RingCentral C# SDK](https://github.com/ringcentral/ringcentral-csharp) to make common API calls easier to access. The RingCentral SDK client object is available via the simple client.
 
