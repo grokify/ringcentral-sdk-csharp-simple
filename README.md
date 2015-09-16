@@ -10,10 +10,10 @@ The code is a very early proof of concept.
 
 ## Installation
 
-Via NuGet:
+Via [NuGet](https://www.nuget.org/packages/RingCentralSimple/):
 
 ```
-Install-Package RingCentralSimple
+PM> Install-Package RingCentralSimple
 ```
 
 ## Quickstart
