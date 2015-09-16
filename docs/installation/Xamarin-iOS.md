@@ -26,9 +26,8 @@ Perform the following steps to load RingCentral and PubNub
 
 1. Create a new Xamarin iOS app, e.g. Single View App
 1. Add RingCentral NuGet package from Official NuGet Gallery
-1. Add `PubnubMessaging.dll` from previous step
-  1. Edit References &gt; .Net Assembly &gt; [Browse]
-  1. Add `PubnubMessaging.dll` from above
+1. Add `PubnubMessaging.dll` from previous step using the following:
+1. Edit References &gt; .Net Assembly &gt; [Browse]
 
 ## Create Your App
 
