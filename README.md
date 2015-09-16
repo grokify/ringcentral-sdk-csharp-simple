@@ -37,7 +37,7 @@ var response = rc.SendMessage("+15551112222", "+15553334444", "RingCentral SMS v
 
 ### Access RingCentral Client
 
-The RingCentral SDK's client is available via the `Sdk` property.
+The official [RingCentral C# SDK](https://github.com/ringcentral/ringcentral-csharp) is available via the `Sdk` property.
 
 ```csharp
 var rc = new RingCentralSimple.Client("appKey", "appSecret", "serverUrl");
