@@ -42,5 +42,3 @@ using PubnubMessaging;
 ## Notes
 
 1. To run your simulator, you may need to set the target device to an actual device vs `iOS Device`
-
-
