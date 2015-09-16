@@ -25,7 +25,7 @@ This builds the following in `c-sharp/monotouch/PubnubMessaging/bin/Debug/`
 
 Perform the following steps to load RingCentral and PubNub
 
-1. Create a new Xamarin Android app, e.g. Android App SOlution
+1. Create a new Xamarin Android app, e.g. Android App Solution
 1. Add RingCentral NuGet package from Official NuGet Gallery
 1. Add `PubnubMessaging.dll` from previous step
   1. Edit References &gt; .Net Assembly &gt; [Browse]
