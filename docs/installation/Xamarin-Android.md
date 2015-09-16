@@ -1,4 +1,4 @@
-# Installation using Xamarin iOS
+# Installation using Xamarin Android
 
 This covers installation of the RingCentral SDK and PubNub dependency for making event subscriptions. Both packages are hosted on NuGet as follows:
 
@@ -21,7 +21,7 @@ This builds the following in `c-sharp/monotouch/PubnubMessaging/bin/Debug/`
 1. `PubnubMessaging.dll`
 1. `PubnubMessaging.dll.mdb`
 
-## Create New Xamarin iOS Solution with libraries
+## Create New Xamarin Android Solution with libraries
 
 Perform the following steps to load RingCentral and PubNub
 
@@ -39,7 +39,3 @@ Perform the following steps to load RingCentral and PubNub
 using RingCentral;
 using PubnubMessaging;
 ```
-
-## Notes
-
-1. To run your simulator, you may need to set the target device to an actual device vs `iOS Device`
