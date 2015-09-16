@@ -5,7 +5,7 @@ This covers installation of the RingCentral SDK and PubNub dependency for making
 * [http://www.nuget.org/packages/RingCentralSDK/](http://www.nuget.org/packages/RingCentralSDK/)
 * [http://www.nuget.org/packages/Pubnub/](http://www.nuget.org/packages/Pubnub/)
 
-## Build Pubnub Messaging DLL
+## Build PubNub Messaging DLL
 
 The following steps will compile the required libraries.
 
