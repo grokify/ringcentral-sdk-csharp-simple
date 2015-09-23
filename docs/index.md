@@ -28,6 +28,7 @@ This can be done simply using the `SendMessage()` method which returns a `RingCe
 var sdk = new RingCentral.SDK.SDK("appKey", "appSecret", "serverUrl", "appName", "appVersion");
 var rc = new RingCentralSimple.Client(sdk);
 rc.Sdk.GetPlatform().Authorize("username", "extension", "password", true);
+// SendMessage takes the following parameters: ("fromNumber", "toNumber", "message")
 var response = rc.SendMessage("+15551112222", "+15553334444", "RingCentral SMS via C#");
 ```
 
