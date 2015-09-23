@@ -13,6 +13,7 @@ The code is a very early proof of concept.
 Via [NuGet](https://www.nuget.org/packages/RingCentralSimple/):
 
 ```
+PM> Install-Package RingCentral
 PM> Install-Package RingCentralSimple
 ```
 
