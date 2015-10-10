@@ -16,7 +16,7 @@ The following steps will compile the required libraries.
 1. compile target to library by changing "Project Options > Build > General > Code Generation > Compile Target" to "Library" from "Executable"
 1. Build All (⌘B)
 
-This builds the `PubNub-Message.dll` library which will be referenced in the following diectory `c-sharp/mono-for-mac/PubNub-Console/bin/Debug/`. Total files include:
+This builds the `PubNub-Message.dll` library which will be referenced in the following diectory `c-sharp/mono-for-mac/PubNub-Console/bin/Debug/`. All files in this directory include:
 
 ```bash
 JsonFx.dll
@@ -43,5 +43,5 @@ Note: Adding `System.Net.Http` as a Local Copy is necessary if you run into a `C
 
 ```
 using RingCentral;
-using PubNubMessaging.Core;
+using PubNubMessaging.Core; // if using subscriptions
 ```
