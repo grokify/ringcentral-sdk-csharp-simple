@@ -37,11 +37,11 @@ Perform the following steps to use the RingCentral SDK:
 
 Note: Adding `System.Net.Http` as a Local Copy is necessary if you run into a `Could not load File or Assembly` error as discussed [here](https://forums.xamarin.com/discussion/27927/could-not-load-file-or-assembly-system-net-http).
 
-## Create Your App
+## Start Coding
 
-1. Add the following:
+1. Add the following to your code:
 
-```
+```csharp
 using RingCentral;
 using PubNubMessaging.Core; // if using subscriptions
 ```
