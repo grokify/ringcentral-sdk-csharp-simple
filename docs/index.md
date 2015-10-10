@@ -9,9 +9,11 @@ This package is designed to make the RingCentral SDK for C# simple to use.
 Via [NuGet](https://www.nuget.org/packages/RingCentralSimple/):
 
 ```
-PM> Install-Package RingCentral
+PM> Install-Package RingCentralSDK
 PM> Install-Package RingCentralSimple
 ```
+
+See the detailed installation pages for additional information on installing PubNub.
 
 ## Initialization
 
