@@ -16,9 +16,11 @@ The following steps will compile the required libraries.
 
 This builds the following in `c-sharp/monotouch/PubnubMessaging/bin/Debug/`
 
-1. `Newtonsoft.Json.dll`
-1. `PubnubMessaging.dll`
-1. `PubnubMessaging.dll.mdb`
+```bash
+Newtonsoft.Json.dll
+PubnubMessaging.dll
+PubnubMessaging.dll.mdb
+```
 
 ## Create New Xamarin iOS Solution with libraries
 
