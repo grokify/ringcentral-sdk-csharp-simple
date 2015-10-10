@@ -33,7 +33,7 @@ Perform the following steps to load RingCentral and PubNub
 
 1. Add the following:
 
-```
+```csharp
 using RingCentral;
 using PubnubMessaging;
 ```
