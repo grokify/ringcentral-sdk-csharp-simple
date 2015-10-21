@@ -1,4 +1,4 @@
-# Installation using Xamarin iOS
+# Installation using Xamarin.iOS
 
 This covers installation of the RingCentral SDK and PubNub dependency for making event subscriptions. Both packages are hosted on NuGet as follows:
 

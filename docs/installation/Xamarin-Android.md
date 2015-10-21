@@ -1,4 +1,4 @@
-# Installation using Xamarin Android
+# Installation using Xamarin.Android
 
 This covers installation of the RingCentral SDK and PubNub dependency for making event subscriptions. Both packages are hosted on NuGet as follows:
 
@@ -10,8 +10,8 @@ This covers installation of the RingCentral SDK and PubNub dependency for making
 The following steps will compile the required libraries.
 
 1. clone `github.com/pubnub/c-sharp` repo
-1. open `c-sharp/mono-for-android/PubnubMessaging/PubNubMessaging.sln` in Xamarin Studio
-1. add Json.NET package (Newtonsoft.Json) from NuGet
+1. open `c-sharp/mono-for-android/PubnubMessaging/PubNubMessaging.csproj` in Xamarin Studio
+1. add `Newtonsoft.Json` Json.NET package from NuGet
 1. Build All (&#8984;B)
 
 This builds the following in `c-sharp/monotouch/PubnubMessaging/bin/Debug/`
