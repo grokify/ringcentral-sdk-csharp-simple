@@ -5,10 +5,13 @@ docs_dir: docs
 theme: readthedocs
 pages:
 # Introduction:
-- ['index.md', 'About', 'RingCentral SDK Simple']
+- ['index.md', 'Overview', 'RingCentral SDK Simple']
 
-## Installation:
+# Installation:
 - ['installation/Visual-Studio-2015.md', 'Installation', 'Visual Studio 2015']
 - ['installation/Xamarin-Android.md', 'Installation', 'Xamarin.Android (Mac)']
 - ['installation/Xamarin-iOS.md', 'Installation', 'Xamarin.iOS (Mac)']
 - ['installation/Xamarin-Mac.md', 'Installation', 'Xamarin.Mac (Mac)']
+
+# Appendix
+- ['appendix/Build-SDK-Mac.md', 'Appendix', 'Building the SDK (Mac)']
