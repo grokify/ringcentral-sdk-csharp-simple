@@ -12,7 +12,7 @@ $ git clone https://github.com/pubnub/c-sharp
 
 ### Build PubNub Libraries
 
-1. Build the PubNub messaging DLL for each of the following: `mono-for-android`, `mono-for-mac`, `monotouch`
+1. Build the PubNub messaging DLL for each of the following: [`mono-for-android`](../installation/Xamarin-Android.md), `mono-for-mac`, `monotouch`
 
 ## Build RingCentral SDK
 
