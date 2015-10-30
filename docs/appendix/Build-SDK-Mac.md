@@ -21,7 +21,7 @@ $ git clone https://github.com/pubnub/c-sharp
 ### Clone RingCentral SDK Repository
 
 ```bash
-$ git clone -b develop https://github.com/ringcentral/ringcentral-chsarp
+$ git clone -b develop https://github.com/ringcentral/ringcentral-csharp
 ```
 
 ### Build RingCentral Libraries
