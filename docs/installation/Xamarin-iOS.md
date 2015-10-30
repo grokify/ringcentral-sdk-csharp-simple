@@ -14,7 +14,7 @@ The following steps will compile the required libraries.
 1. add Json.NET package (Newtonsoft.Json) from NuGet
 1. Build All (&#8984;B)
 
-This builds the following in `c-sharp/monotouch/PubnubMessaging/bin/Debug/`
+This builds the following in `c-sharp/monotouch/PubnubMessaging/bin/Release/`
 
 ```bash
 Newtonsoft.Json.dll

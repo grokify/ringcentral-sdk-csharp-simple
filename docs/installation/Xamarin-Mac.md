@@ -16,14 +16,13 @@ The following steps will compile the required libraries.
 1. compile target to library by changing "Project Options > Build > General > Code Generation > Compile Target" to "Library" from "Executable"
 1. Build All (⌘B)
 
-This builds the `PubNub-Message.dll` library which will be referenced in the following diectory `c-sharp/mono-for-mac/PubNub-Console/bin/Debug/`. All files in this directory include:
+This builds the `PubNub-Message.dll` library which will be referenced in the following diectory `c-sharp/mono-for-mac/PubNub-Console/bin/Release/`. All files in this directory include:
 
 ```bash
 JsonFx.dll
 Newtonsoft.Json.dll
 PubNub-Messaging.dll
 PubNub-Messaging.dll.config
-PubNub-Messaging.dll.mdb
 ```
 
 ## Create New Xamarin .NET Solution
