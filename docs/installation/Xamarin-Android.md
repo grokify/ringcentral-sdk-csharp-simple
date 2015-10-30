@@ -23,7 +23,7 @@ PubNubMessaging.dll
 PubNubMessaging.dll.mdb
 ```
 
-## Create New Xamarin Android Solution with libraries
+## Create New RingCentral Xamarin Android Solution
 
 Perform the following steps to load RingCentral and PubNub
 

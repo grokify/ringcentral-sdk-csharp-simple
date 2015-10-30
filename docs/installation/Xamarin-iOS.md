@@ -22,7 +22,7 @@ PubnubMessaging.dll
 PubnubMessaging.dll.mdb
 ```
 
-## Create New Xamarin iOS Solution with libraries
+## Create New RingCentral Xamarin iOS Solution
 
 Perform the following steps to load RingCentral and PubNub
 

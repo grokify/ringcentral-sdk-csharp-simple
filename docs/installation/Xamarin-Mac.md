@@ -25,7 +25,7 @@ PubNub-Messaging.dll
 PubNub-Messaging.dll.config
 ```
 
-## Create New Xamarin .NET Solution
+## Create New RingCentral Xamarin .NET Solution
 
 Perform the following steps to use the RingCentral SDK:
 
