@@ -1,6 +1,6 @@
 # Building the SDK (Mac)
 
-To build the SDK using Xamarin Studio on the Mac, follow these steps:
+To build the RingCentral SDK using Xamarin Studio on the Mac, follow these steps:
 
 ## Build Dependencies
 
