@@ -42,5 +42,5 @@ Note: Adding `System.Net.Http` as a Local Copy is necessary if you run into a `C
 
 ```csharp
 using RingCentral;
-using PubNubMessaging.Core; // if using subscriptions
+using RingCentral.Subscription; // if using subscriptions
 ```

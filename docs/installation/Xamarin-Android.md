@@ -37,5 +37,5 @@ Perform the following steps to load RingCentral and PubNub
 
 ```csharp
 using RingCentral;
-using PubNubMessaging.Core; // if using subscriptions
+using RingCentral.Subscription; // if using subscriptions
 ```
