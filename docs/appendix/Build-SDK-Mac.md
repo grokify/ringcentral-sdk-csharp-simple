@@ -64,3 +64,16 @@ $ git clone -b develop https://github.com/ringcentral/ringcentral-chsarp
 #### Build RingCentral solution
 
 1. Build `RingCentral` solution
+
+## Create NuGet Package
+
+Edit and use the `.nuspec` file to create the NuGet package as appropriate. Be sure to use the proper directory forward slashes for Mac.
+
+```bash
+$ nuget pack ringcentral.mac.nuspec
+```
+
+See the following links for more information on publishing NuGet packages:
+
+1. [Creating and Publishing a Package](https://docs.nuget.org/create/creating-and-publishing-a-package)
+1. [Creating NuGet Packages for Xamarin](https://developer.xamarin.com/guides/cross-platform/advanced/nuget/)
