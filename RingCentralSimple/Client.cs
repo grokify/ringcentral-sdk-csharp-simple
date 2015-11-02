@@ -10,11 +10,6 @@ namespace RingCentralSimple
     {
         public RingCentral.SDK.SDK Sdk;
 
-        public Client(string appKey, string appSecret, string serverUrl)
-        {
-            Sdk = new RingCentral.SDK.SDK(appKey, appSecret, serverUrl);
-        }
-
         public Client(RingCentral.SDK.SDK ringCentralSdk)
         {
             Sdk = ringCentralSdk;
