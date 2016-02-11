@@ -1,6 +1,6 @@
-# Subscription Quickstart
+# Subscribe for Notifications
 
-## Installation
+## Quickstart
 
 The following is a very simple recipe to get subscriptions working: 
 
