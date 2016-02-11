@@ -13,5 +13,8 @@ pages:
 - ['installation/Xamarin-iOS.md', 'Installation', 'Xamarin.iOS (Mac)']
 - ['installation/Xamarin-Mac.md', 'Installation', 'Xamarin.Mac (Mac)']
 
+# Notifications
+- ['notifications/Subscription.md', 'Notifications', 'Subscription Example']
+
 # Appendix
 - ['appendix/Build-SDK-Mac.md', 'Appendix', 'Building the SDK (Mac)']
