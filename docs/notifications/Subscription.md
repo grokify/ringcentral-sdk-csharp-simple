@@ -14,7 +14,6 @@ namespace console.subscribe
 {
 	class MainClass
 	{
-
 		static void ActionOnNotification(object message) {
 			var receivedMessage = message.ToString();
 			Console.WriteLine(receivedMessage);
